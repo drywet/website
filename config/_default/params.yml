@@ -40,7 +40,7 @@ image:
 
 # SEO (@hyas/seo)
 seo:
-  description: "Doks is a Hyas theme for building custom, production-ready documentation websites."
+  description: "CoTips: software engineering tips / blog."
   generate:
     title: true
     meta: true
@@ -51,12 +51,12 @@ seo:
       breadcrumbs: true
   title_tag:
     separator: "|"
-    home_text: "Modern Documentation Theme"
+    home_text: "Software engineering tips / blog"
   og_article_types: [post, posts, blog, news, article, articles, event, events, course, courses]
   jsonld_article_types: [article, articles]
   jsonld_news_article_types: [news, updates]
   jsonld_blog_posting_types: [post, posts, blog]
-  image: "/images/hyas-schema-image.png" 
+  image: "/images/hyas-schema-image.png"
   private: false
 
 # Inline SVG (@hyas/inline-svg)

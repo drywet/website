@@ -8,7 +8,7 @@ containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fl
 
 ## Button
 navBarButton = false # false (default) or true
-navBarButtonUrl = "/docs/prologue/introduction/"
+navBarButtonUrl = "/docs/start-here/getting-started/"
 navBarButtonText = "Get started"
 
 # FlexSearch
@@ -30,7 +30,7 @@ alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/doks-1/"
 bootstrapJavascript = false # false (default) or true
 
 # Nav
-sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+sectionNav = ["docs", "tips"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
 toTopButton = false # false (default) or true
 breadcrumbTrail = false # false (default) or true
 headlineHash = true # true (default) or false
@@ -54,17 +54,17 @@ sectionFooter = false # false (default) or true
 relatedPosts = false # false (default) or true
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # kaTex
 kaTex = false
 
 # Repository
-editPage = false # false (default) or true
-lastMod = false # false (default) or true
+editPage = true # false (default) or true
+lastMod = true # false (default) or true
 repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "main" # main (default), master, or <branch name>
+docsRepo = "https://github.com/drywet/website"
+docsRepoBranch = "website" # main (default), master, or <branch name>
 docsRepoSubPath = "" # "" (none, default) or <sub path>
 
 [menu]

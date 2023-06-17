@@ -7,6 +7,14 @@
   target = "assets"
 
 [[mounts]]
+  source = "node_modules/chart.js"
+  target = "assets/chart.js"
+
+[[mounts]]
+  source = "node_modules/lodash.groupby"
+  target = "assets/lodash.groupby"
+
+[[mounts]]
   source = "node_modules/@hyas/core/layouts"
   target = "layouts"
 
@@ -80,7 +88,7 @@
   target = "archetypes"
 
 [[mounts]]
-  source = "assets"
+  source = "integrations/doks-core/assets"
   target = "assets"
 
 [[mounts]]
@@ -96,7 +104,7 @@
   target = "i18n"
 
 [[mounts]]
-  source = "layouts"
+  source = "integrations/doks-core/layouts"
   target = "layouts"
 
 [[mounts]]
