@@ -1,6 +1,6 @@
 [[main]]
   name = "Tips"
-  url = "/tips/"
+  url = "/tips/ci/circleci-bash/"
   weight = 10
 
 #[[main]]

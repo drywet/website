@@ -81,6 +81,6 @@ rel  = "sitemap"
 [imaging]
   anchor = 'Smart'
   bgColor = '#fff'
-  hint = 'photo'
-  quality = 90
+  hint = 'text'
+  quality = 100
   resampleFilter = 'Lanczos'
