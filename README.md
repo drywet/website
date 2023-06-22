@@ -1,3 +1,12 @@
+This is the repo of the website [cotips.dev](https://cotips.dev)  \
+- Created based on Doks theme with Hugo static website generator
+- added custom deployment with CircleCI
+- hosted on AWS.
+
+The original theme documentation goes below.
+
+---
+
 ![Modern documentation theme](.github/assets/banner.png)
 
 <p align="center">
