@@ -20,7 +20,7 @@
   </div>
   {{ end -}}
   {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-md section-features">
+  <section id="about" class="section section-md section-features">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col">
@@ -29,7 +29,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="mt-1">
-          <p>I'm a polyglot developer with engineering skills and mindset. I've got 9 years of commercial development experience. I specialize in backend development with Scala (microservices, distributed apps, databases, monitoring, CI/CD)<br><a href="javascript:void(0)" onclick="this.classList.add('hiding'); document.querySelector('#about-more-info').classList.remove('hiding')">Expand...</a></p>
+          <p>I'm a polyglot developer with engineering skills and mindset. I've got 9 years of commercial development experience. I specialize in backend development with Scala (microservices, distributed apps, databases, monitoring, CI/CD)<br><a href="#about" onclick="this.classList.add('hiding'); document.querySelector('#about-more-info').classList.remove('hiding')">Expand...</a></p>
           <div id="about-more-info" class="hiding">
           <p>Languages: Scala, Java, also JS, Python, Ruby, C++, PHP, Bash.</p>
           <p>I use modern, powerful and simple tools that help me keep things maintainable. I don't hesitate to write tests, documentation, and like to automate what is possible. Important aspects of my work are compatibility maintenance, algorithmic correctness and efficiency, code duplication minimization.</p>
@@ -40,16 +40,16 @@
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-sm-4">
-          <h6 class="mt-2"><a href="mailto:m.sahabudinov+cotips@gmail.com" target="_blank">Email</a></h6>
+          <div class="h6 mt-2"><a href="mailto:m.sahabudinov+cotips@gmail.com" target="_blank">Email</a></div>
         </div>
         <div class="col-sm-4">
-          <h6 class="mt-2"><a href="https://www.linkedin.com/in/marat-sahabudinov/" target="_blank">LinkedIn</a></h6>
+          <div class="h6 mt-2"><a href="https://www.linkedin.com/in/marat-sahabudinov/" target="_blank">LinkedIn</a></div>
         </div>
         <div class="col-sm-4">
-          <h6 class="mt-2"><a href="https://github.com/drywet" target="_blank">GitHub</a></h6>
+          <div class="h6 mt-2"><a href="https://github.com/drywet" target="_blank">GitHub</a></div>
         </div>
         <div class="col-sm-4">
-          <h6 class="mt-2"><a href="https://docs.google.com/document/d/1QKHin6hM8uXHZvDdaTwmvCPPRNTqIb6U99UL-P0BmA8/edit?usp=sharing" target="_blank">CV</a></h6>
+          <div class="h6 mt-2"><a href="https://docs.google.com/document/d/1QKHin6hM8uXHZvDdaTwmvCPPRNTqIb6U99UL-P0BmA8/edit?usp=sharing" target="_blank">CV</a></div>
         </div>
       </div>
     </div>
@@ -92,12 +92,12 @@
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
           <p class="fs-4 mt-4">⚙️</p>
-          <h4 class="mt-0">CI tool for SFCC developers</h4>
+          <h3 class="h4 mt-0">CI tool for SFCC developers</h3>
           <p>Automatic creation of dev sandboxes and version control of configurations.</p>
         </div>
         <div class="col-lg-5">
           <p class="fs-4 mt-4">🔎</p>
-          <h4 class="mt-0">Search engine for a store</h4>
+          <h3 class="h4 mt-0">Search engine for a store</h3>
           <ul class="text-start" style="list-style: circle">
             <li>Scala search backend + Elasticsearch</li>
             <li>Ruby admin dashboard</li>
@@ -106,7 +106,7 @@
         </div>
         <div class="col-lg-5">
           <p class="fs-4 mt-4">📹💬</p>
-          <h4 class="mt-0">A videochat</h4>
+          <h3 class="h4 mt-0">A videochat</h3>
           <ul class="text-start" style="list-style: circle">
             <li>Improving traffic routing microservices</li>
             <li>migration of some services to Kubernetes</li>
@@ -117,12 +117,12 @@
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
           <p class="fs-4 mt-4">🔃</p>
-          <h4 class="mt-0">Ad management service</h4>
+          <h3 class="h4 mt-0">Ad management service</h3>
           <p>Microsoft Bing Ads integration. Refactoring, redesign and data migration</p>
         </div>
         <div class="col-lg-5">
           <p class="fs-4 mt-4">📈</p>
-          <h4 class="mt-0">A financial service</h4>
+          <h3 class="h4 mt-0">A financial service</h3>
           <ul class="text-start" style="list-style: circle">
             <li>Newsfeed aggregation</li>
             <li>migration to Akka HTTP API and to protobuf for storing cache data</li>
@@ -131,18 +131,18 @@
         </div>
         <div class="col-lg-5">
           <p class="fs-4 mt-4">🔗</p>
-          <h4 class="mt-0">Peer-to-peer proxy</h4>
+          <h3 class="h4 mt-0">Peer-to-peer proxy</h3>
           <p>Implementation from scratch with Node.js and WebRTC</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h4>... and other</h4>
+          <h3 class="h4">... and other</h3>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-16">
-          <h4 class="mt-5"><a href="mailto:m.sahabudinov+cotips@gmail.com" target="_blank">Contact me</a> if you want to cooperate 📝👨‍💻</h4>
+          <h3 class="h4 mt-5"><a href="mailto:m.sahabudinov+cotips@gmail.com" target="_blank">Contact me</a> if you want to cooperate 📝👨‍💻</h3>
         </div>
       </div>
     </div>

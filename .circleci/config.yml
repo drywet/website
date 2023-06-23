@@ -15,6 +15,12 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run build
+      - run:
+          name: Generate robots.txt
+          command: |
+            echo "User-agent: *
+            Allow: *
+            Sitemap: https://$SITE_HOSTNAME/sitemap.xml" > public/robots.txt
       - persist_to_workspace:
           name: Persist to workspace
           root: .
