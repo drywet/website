@@ -21,7 +21,7 @@ author:
 
 ---
 
-## CircleCI tips
+### CircleCI tips
 
 #### 1. JSON schema {#json-schema}
 
@@ -263,11 +263,12 @@ declare -p CIRCLE_BRANCH >> "$BASH_ENV"
 declare -p CIRCLE_TAG >> "$BASH_ENV"
 ```
 
+<!-- markdownlint-disable MD051 -->
 Make sure both of those extra steps
 are [called only on success/failure or always](#running-steps-on-job-failure-or-always),
 depending on your notification "event" param
 
-## Bash tips
+### Bash tips
 
 #### 1. IDE support {#ide-support}
 
