@@ -1,0 +1,49 @@
+version: 2.1
+
+orbs:
+  aws-cli: circleci/aws-cli@4.0.0
+
+executors:
+  golang-with-node:
+    docker:
+      - image: cimg/go:1.20.5-node
+
+jobs:
+  build:
+    executor: golang-with-node
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run build
+      - persist_to_workspace:
+          name: Persist to workspace
+          root: .
+          paths:
+            - .
+  lint:
+    executor: golang-with-node
+    steps:
+      - attach_workspace:
+          at: .
+      - run: npm run lint
+  deploy:
+    executor: golang-with-node
+    steps:
+      - attach_workspace:
+          at: .
+      - aws-cli/setup:
+          role_arn: $AWS_ROLE_ARN
+      - run: aws s3 sync "public" "$S3_URL" --delete
+
+workflows:
+  build-and-deploy:
+    when:
+      equal: [ << pipeline.git.branch >>, "website" ]
+    jobs:
+      - build
+      - lint:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - lint
