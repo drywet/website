@@ -88,7 +88,7 @@
   target = "archetypes"
 
 [[mounts]]
-  source = "integrations/doks-core/assets"
+  source = "assets"
   target = "assets"
 
 [[mounts]]
@@ -104,7 +104,7 @@
   target = "i18n"
 
 [[mounts]]
-  source = "integrations/doks-core/layouts"
+  source = "layouts"
   target = "layouts"
 
 [[mounts]]
