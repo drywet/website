@@ -56,9 +56,11 @@ seo:
   jsonld_article_types: [article, articles]
   jsonld_news_article_types: [news, updates]
   jsonld_blog_posting_types: [post, posts, blog]
-  image: "/images/hyas-schema-image.png"
+  image: "/android-chrome-512x512.png"
   private: false
 
 # Inline SVG (@hyas/inline-svg)
 inline_svg:
   icon_set_dir: "tabler-icons" # tabler-icons (default)
+
+themeColor: "#ffffff"
