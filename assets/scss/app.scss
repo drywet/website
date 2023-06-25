@@ -68,9 +68,8 @@
 
 // @import "common/syntax";
 
-/** Import highlight.js */
-@import "vendor/highlight.js/a11y-light.scss";
-@import "vendor/highlight.js/a11y-dark.scss";
+@import "code-highlight/monokai.scss";
+@import "code-highlight/monokailight.scss";
 
 @import "common/dark";
 @import "components/alerts";
@@ -128,5 +127,5 @@ h4 code {
 }
 
 ::selection {
-  background: rgba(212,53,159,0.2);
+  background: rgba(53,159,212,0.2);
 }
