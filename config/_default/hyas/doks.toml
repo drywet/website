@@ -56,8 +56,6 @@ relatedPosts = false # false (default) or true
 # Footer
 footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
-highlight = true
-
 # kaTex
 kaTex = false
 
