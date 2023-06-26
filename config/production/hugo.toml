@@ -1,1 +1,3 @@
 # Overrides for production environment
+baseurl = "https://cotips.dev/"
+canonifyURLs = true
