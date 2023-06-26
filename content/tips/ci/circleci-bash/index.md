@@ -313,7 +313,7 @@ in `( ... )`
 ```bash
 a=$([[ $b == 'c' ]] && echo t || echo f)
 echo "$a"
-# outputs: t
+# Outputs: t
 ```
 
 It works because if `&&` or `||` operators are applied after a test statement, the `set -e` fail fast option doesn't
