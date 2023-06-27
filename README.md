@@ -1,4 +1,5 @@
-This is the repo of the website [cotips.dev](https://cotips.dev)  \
+This is the repo of the website [cotips.dev](https://cotips.dev)
+
 - Created based on Doks theme with Hugo static website generator
 - added custom deployment with CircleCI
 - hosted on AWS.
